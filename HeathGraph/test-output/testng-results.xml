@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[************browser started****************]]>
+    </line>
+    <line>
+      <![CDATA[************browser closed****************]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62487" started-at="2020-10-18T22:04:50Z" finished-at="2020-10-18T22:05:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62487" started-at="2020-10-18T22:04:50Z" finished-at="2020-10-18T22:05:53Z">
+      <class name="com.nobrokerserach.test.HomepageSearch">
+        <test-method status="PASS" signature="setupapplication()[pri:0, instance:com.nobrokerserach.test.HomepageSearch@4f933fd1]" name="setupapplication" is-config="true" duration-ms="16073" started-at="2020-10-18T22:04:50Z" finished-at="2020-10-18T22:05:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[************browser started****************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupapplication -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nobrokerserach.test.HomepageSearch@4f933fd1]" name="search" duration-ms="41130" started-at="2020-10-18T22:05:06Z" data-provider="NobrokerSearch_Data" finished-at="2020-10-18T22:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MaladEast-Malkani Estate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malad west-Sundar Ln]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhk2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bhk3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closedApplication()[pri:0, instance:com.nobrokerserach.test.HomepageSearch@4f933fd1]" name="closedApplication" is-config="true" duration-ms="5252" started-at="2020-10-18T22:05:47Z" finished-at="2020-10-18T22:05:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[************browser closed****************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedApplication -->
+      </class> <!-- com.nobrokerserach.test.HomepageSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
